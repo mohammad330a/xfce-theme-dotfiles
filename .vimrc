@@ -1,0 +1,7 @@
+set tabstop=4
+set shiftwidth=4
+set noexpandtab
+set autoindent
+set smartindent
+set number
+

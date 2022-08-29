@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=960;y=25"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="length-adjust" type="bool" value="false"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="24"/>
+        <value type="int" value="25"/>
+        <value type="int" value="26"/>
+        <value type="int" value="27"/>
+        <value type="int" value="28"/>
+        <value type="int" value="29"/>
+        <value type="int" value="30"/>
+        <value type="int" value="31"/>
+        <value type="int" value="32"/>
+        <value type="int" value="33"/>
+        <value type="int" value="34"/>
+        <value type="int" value="35"/>
+        <value type="int" value="36"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="background-image" type="string" value="/home/mohammad330a/Downloads/panel-background/xfce-panel02.svg"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="95"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-24" type="string" value="whiskermenu"/>
+    <property name="plugin-25" type="string" value="applicationsmenu"/>
+    <property name="plugin-26" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-27" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
+    <property name="plugin-28" type="string" value="separator"/>
+    <property name="plugin-29" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “:) ” active: :)  (60%)"/>
+        <value type="string" value="wi-fi network connection “:) ” active: :)  (75%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (68%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (59%)"/>
+        <value type="string" value="user authentication required for wi-fi network “mohammad”…"/>
+        <value type="string" value="wi-fi network connection “mohammad” active: mohammad (72%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (72%)"/>
+        <value type="string" value="requesting a wi-fi network address for “wirelessnet”…"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (67%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (75%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (58%)"/>
+        <value type="string" value="wi-fi network connection “mohammad” active: mohammad (56%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (73%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (60%)"/>
+        <value type="string" value="wi-fi network connection “mathbsc2 2.4” active: mathbsc2 2.4 (72%)"/>
+        <value type="string" value="wi-fi network connection “mohammad” active: mohammad (81%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (77%)"/>
+        <value type="string" value="wi-fi network connection “mathbsc3 5ghz” active: mathbsc3 5ghz (72%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (65%)"/>
+        <value type="string" value="wi-fi network connection “:) ” active: :)  (86%)"/>
+        <value type="string" value="wi-fi network connection “mathbsc2 2.4” active: mathbsc2 2.4 (57%)"/>
+        <value type="string" value="wi-fi network connection “mohammad 2” active: mohammad (67%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (61%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (62%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (66%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (63%)"/>
+        <value type="string" value="wi-fi network connection “wirelessnet” active: wirelessnet (69%)"/>
+        <value type="string" value="wi-fi network connection “mohammad” active: mohammad (57%)"/>
+        <value type="string" value="requesting a wi-fi network address for “mohammad”…"/>
+        <value type="string" value="configuring wi-fi network connection “mohammad”…"/>
+        <value type="string" value="wi-fi network connection “:) ” active: :)  (70%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="configuring wi-fi network connection “:) ”…"/>
+        <value type="string" value="configuring wi-fi network connection “wirelessnet”…"/>
+        <value type="string" value="uget-gtk"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="chrome_status_icon_2"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="Slack1"/>
+      </property>
+    </property>
+    <property name="plugin-30" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1003;chromium.instance1006;chromium.instance1037;chromium.instance1065;chromium.instance1102;chromium.instance1104;chromium.instance1122;chromium.instance1129;chromium.instance1150;chromium.instance1162;chromium.instance1177;chromium.instance1181;chromium.instance1186;chromium.instance1209;chromium.instance1227;chromium.instance1239;chromium.instance1242;chromium.instance1248;chromium.instance1249;chromium.instance1250;chromium.instance1261;chromium.instance1266;chromium.instance1267;chromium.instance1272;chromium.instance1281;chromium.instance1284;chromium.instance1296;chromium.instance1306;chromium.instance1310;chromium.instance1313;chromium.instance1316;chromium.instance1317;chromium.instance1322;chromium.instance13246;chromium.instance1325;chromium.instance1329;chromium.instance1335;chromium.instance1352;chromium.instance1354;chromium.instance1355;chromium.instance1361;chromium.instance1362;chromium.instance1369;chromium.instance1377;chromium.instance1385;chromium.instance1387;chromium.instance1398;chromium.instance1399;chromium.instance1408;chromium.instance1444;chromium.instance1461;chromium.instance1464;chromium.instance1485;chromium.instance1493;chromium.instance1495;chromium.instance1539;chromium.instance1576;chromium.instance1606;chromium.instance1635;chromium.instance1701;chromium.instance1728;chromium.instance1743;chromium.instance1765;chromium.instance1768;chromium.instance1801;chromium.instance1828;chromium.instance1871;chromium.instance1879;chromium.instance1882;chromium.instance1897;chromium.instance1913;chromium.instance1938;chromium.instance1943;chromium.instance2018;chromium.instance2025;chromium.instance2113;chromium.instance21279;chromium.instance2243;chromium.instance2257;chromium.instance2293;chromium.instance2303;chromium.instance2335;chromium.instance2377;chromium.instance23779;chromium.instance24977;chromium.instance2541;chromium.instance2546;chromium.instance2625;chromium.instance2638;chromium.instance2683;chromium.instance2880;chromium.instance2944;chromium.instance2958;chromium.instance3056;chromium.instance3098;chromium.instance3145;chromium.instance3352;chromium.instance3447;chromium.instance3744;chromium.instance3749;chromium.instance3801;chromium.instance3925;chromium.instance4156;chromium.instance4286;chromium.instance5021;chromium.instance5091;chromium.instance52080;chromium.instance59574;chromium.instance65193;chromium.instance7347;chromium.instance7505;firefox.instance3418;spotify;tdesktop;vlc;vlc.instance16908;vlc.instance61314;vlc.instance61321"/>
+    </property>
+    <property name="plugin-31" type="string" value="power-manager-plugin"/>
+    <property name="plugin-32" type="string" value="notification-plugin"/>
+    <property name="plugin-33" type="string" value="separator"/>
+    <property name="plugin-34" type="string" value="clock"/>
+    <property name="plugin-35" type="string" value="separator"/>
+    <property name="plugin-36" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="+switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="xkb">
+      <property name="display-name" type="uint" value="1"/>
+      <property name="display-type" type="uint" value="1"/>
+    </property>
+  </property>
+</channel>
